@@ -1,0 +1,30 @@
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+div {
+  margin-top: 60px;
+}
+
+article:first-child {
+  text-align: left;
+}
+
+p {
+  width: 60%;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+}

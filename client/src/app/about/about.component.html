@@ -1,0 +1,8 @@
+<div class="container">
+  <section class="about-container mt-4">
+    <h1 class="about-header text-primary">Our team</h1>
+    <div *ngIf="profiles" class="card-group profile-wrapper">
+      <app-profile-item data-aos="fade-in" *ngFor="let profile of profiles;let i = index" [profile]="profile" class="m-3" [routerLink]="['/' + 'about/' + i]"></app-profile-item>
+    </div>
+  </section>
+</div>

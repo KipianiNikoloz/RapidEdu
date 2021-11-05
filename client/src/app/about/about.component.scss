@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+.profile-wrapper {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
