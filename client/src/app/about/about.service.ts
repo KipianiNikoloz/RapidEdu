@@ -10,6 +10,7 @@ export class AboutService {
     new Profile
     (
       "Nikoloz Kipiani",
+      15,
       "Web Developer",
       "https://res.cloudinary.com/nikolozscloud/image/upload/v1627664410/ogae6t5zu3t9txmhzlup.jpg",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at elementum turpis. " +
@@ -20,6 +21,7 @@ export class AboutService {
     new Profile
     (
       "Nikoloz Kipiani",
+      15,
       "Web Developer",
       "https://res.cloudinary.com/nikolozscloud/image/upload/v1627664410/ogae6t5zu3t9txmhzlup.jpg",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at elementum turpis. " +
@@ -30,6 +32,7 @@ export class AboutService {
     new Profile
     (
       "Nikoloz Kipiani",
+      15,
       "Web Developer",
       "https://res.cloudinary.com/nikolozscloud/image/upload/v1627664410/ogae6t5zu3t9txmhzlup.jpg",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at elementum turpis. " +
@@ -40,6 +43,7 @@ export class AboutService {
     new Profile
     (
       "Nikoloz Kipiani",
+      15,
       "Web Developer",
       "https://res.cloudinary.com/nikolozscloud/image/upload/v1627664410/ogae6t5zu3t9txmhzlup.jpg",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at elementum turpis. " +

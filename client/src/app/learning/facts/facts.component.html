@@ -1,0 +1,13 @@
+<div class="container">
+  <section class="fact-container mt-4 d-flex align-items-center flex-column">
+    <article>
+      <p class="text-primary" [routerLink]="['/' + 'learning/']" style="cursor: pointer"><i class="fas fa-long-arrow-alt-left"></i> Subjects</p>
+    </article>
+    <article class="d-flex justify-content-center align-items-center flex-column">
+      <ng-container *ngIf="fact">
+        <app-fact [fact]="fact" (reloadEvent)="getReloadedFact(category)"></app-fact>
+      </ng-container>
+    </article>
+  </section>
+</div>
+

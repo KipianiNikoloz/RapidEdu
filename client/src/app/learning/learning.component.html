@@ -1,0 +1,9 @@
+<div class="container">
+  <section class="learning-container mt-4">
+    <h1 class="about-header text-primary">Subjects</h1>
+    <div *ngIf="subjects" class="card-group subject-wrapper mt-5">
+      <app-subject-item *ngFor="let subject of subjects" [subject]="subject" [routerLink]="['/' + 'learning/' + 'facts']" [queryParams]="{ category: subject}"></app-subject-item>
+    </div>
+  </section>
+</div>
+

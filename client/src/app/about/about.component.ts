@@ -15,7 +15,6 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
     this.profiles = this.aboutService.getProfiles();
-    console.log(this.profiles)
   }
 
 }

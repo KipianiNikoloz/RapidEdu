@@ -1,0 +1,13 @@
+<div class="card text-center">
+  <div class="card-header">
+    Facts
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{fact.category | titlecase}}</h5>
+    <p class="card-text">{{fact.content}}</p>
+    <a class="btn btn-primary" (click)="reloadInform()"><i class="fas fa-sync-alt"></i></a>
+  </div>
+  <div class="card-footer text-muted">
+    RapidEdu &trade;
+  </div>
+</div>

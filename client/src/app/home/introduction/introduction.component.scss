@@ -12,6 +12,8 @@ div {
 
 article:first-child {
   text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
 p {
@@ -27,4 +29,29 @@ img {
   width: 400px;
   height: auto;
   object-fit: cover;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .intro-container {
+    flex-direction: column;
+  }
+
+  p {
+    width: 80%;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  article:last-child {
+    margin-top: 40px;
+  }
+
+  article:first-child {
+    justify-content: center;
+    align-items: center;
+  }
 }
