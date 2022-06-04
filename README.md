@@ -3,3 +3,5 @@ RapidEdu is a platform which provides short facts in a consise manner. The platf
 
 The pandemic has shown that our attention span has decreased over the years. RapidEdu is a workaround to this problem. RapidEdu provides information in a short
 format, which makes facts easy to memorize. Information is sorted according to subject.
+
+https://rapidedu-5b49c.web.app/
